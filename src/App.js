@@ -13,7 +13,7 @@ function App() {
       if (search === "") return;
 
       const imagesPerPage = 30;
-      const key = "12800628-bc2ad2e736bd9083000829227";
+      const key = "";
 
       const url = `https://pixabay.com/api/?key=${key}&q=${search}&per_page=${imagesPerPage}&page=${currentPage}`;
 
